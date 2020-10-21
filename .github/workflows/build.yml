@@ -22,7 +22,6 @@ jobs:
         env:
           NODE_ENV: production
         run: |
-          npm install -D pug
           npm install -D
           npm run build
           mv build carbon
