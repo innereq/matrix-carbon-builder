@@ -1,6 +1,6 @@
 # Matrix Carbon Builder
 
-[![Daily Integration](https://github.com/innereq/matrix-pleroma-builder/workflows/Daily%20Integration/badge.svg)](https://github.com/innereq/matrix-pleroma-builder/actions?query=workflow%3A"Daily+Integration")
+[![Daily Integration](https://github.com/innereq/matrix-carbon-builder/workflows/Daily%20Integration/badge.svg)](https://github.com/innereq/matrix-carbon-builder/actions?query=workflow%3A"Daily+Integration")
 
 It does some things for us:
 
