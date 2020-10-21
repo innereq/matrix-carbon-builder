@@ -16,12 +16,13 @@ jobs:
       - name: "Install Node toolchain"
         uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 15
 
       - name: "Build Carbon package"
         env:
           NODE_ENV: production
         run: |
+          npm install -D pug
           npm install -D
           npm run build
           mv build carbon
