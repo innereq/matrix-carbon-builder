@@ -16,12 +16,12 @@ jobs:
       - name: "Install Node toolchain"
         uses: actions/setup-node@v1
         with:
-          node-version: 15
+          node-version: 12
 
       - name: "Build Carbon package"
         run: |
-          npm install -D
-          npm run build
+          yarn
+          yarn build
           mv build carbon
           tar -zcvf carbon.tar.gz carbon
       - name: "Upload Carbon package"
